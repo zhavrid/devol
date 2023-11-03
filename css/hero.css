@@ -1,0 +1,127 @@
+.hero {
+  padding-top: 92px;
+  position: relative;
+  z-index: -1;
+}
+.hero::before {
+  content: "";
+  background: linear-gradient(180deg, rgba(15, 15, 18, 0), #09090b);
+  width: 100%;
+  height: 246px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+.hero_content {
+  display: flex;
+  padding: 57px 0 112px;
+  gap: 22px;
+}
+@media screen and (max-width: 1250px) {
+  .hero_content {
+    display: block;
+    padding: 64px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_content {
+    padding: 20px 0 60px;
+  }
+}
+.hero_content_left {
+  max-width: 604px;
+}
+@media screen and (max-width: 1250px) {
+  .hero_content_left {
+    max-width: 1020px;
+  }
+}
+.hero_content_left-title {
+  padding-top: 63px;
+  color: white;
+  font-family: "Poppins-SemiBold";
+  font-size: 70px;
+  line-height: 88px;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 1250px) {
+  .hero_content_left-title {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero_content_left-title {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_content_left-title {
+    font-size: 36px;
+    line-height: normal;
+  }
+}
+.hero_content_left-description {
+  padding-top: 24px;
+  color: white;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 36px;
+  max-width: 500px;
+  opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+  .hero_content_left-description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.hero_content_left-block_buttons {
+  padding-top: 64px;
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 1250px) {
+  .hero_content_left-block_buttons {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 452px) {
+  .hero_content_left-block_buttons {
+    display: none;
+  }
+}
+.hero_content_left-block_buttons .buttons_left {
+  width: 271px;
+  background-color: #4335E6;
+  border-radius: 2px;
+  color: white;
+  font-family: "Poppins-SemiBold";
+  font-size: 18px;
+  line-height: 28px;
+  padding: 20px 32px;
+  border: none;
+}
+@media screen and (max-width: 1250px) {
+  .hero_content_left-block_buttons .buttons_left {
+    display: none;
+  }
+}
+.hero_content_right {
+  position: absolute;
+}
+@media screen and (max-width: 1250px) {
+  .hero_content_right {
+    padding-top: 65px;
+    position: inherit;
+  }
+}
+.hero_content_right img {
+  width: 1134.968px;
+  height: 732px;
+}
+@media screen and (max-width: 1250px) {
+  .hero_content_right img {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=hero.css.map */

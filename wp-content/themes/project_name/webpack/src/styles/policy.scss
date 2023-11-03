@@ -1,0 +1,104 @@
+.privacy_block{
+    .privacy_block_container{
+        padding: 120px 0 124px;
+        margin: 0 auto;
+        max-width: 1228px;
+        @media screen and (max-width: 1250px) {
+            padding: 0 26px;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 0 20px;
+        }
+        .title_policy{
+            font-family: 'Poppins-SemiBold';
+            color:#FFF;
+            font-size: 70px;
+            line-height: 88px;
+        }
+        .data_text{
+            font-family: 'Poppins-SemiBold';
+            color:#FFF;
+            font-size: 38px;
+            margin: 64px 0;
+        }
+        .title_two{
+            font-family: 'Poppins-SemiBold';
+            color:#FFF;
+            font-size: 38px;
+            margin: 64px 0 24px;
+        }
+        .text{
+            color: #FFF;   
+            font-family: 'Roboto';
+            font-size: 24px;
+            line-height: 36px;
+            opacity: 0.8;
+            margin-bottom: 36px;
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+// 404
+
+.customize-support{
+    background: #0E0E12;
+    .bg-error{
+        .svg{
+            max-width: 623px;
+            margin: 0 auto;
+            .error{
+                width: 100%;
+            }
+        }
+        .error_content{
+            text-align: center;
+            .error_text{
+                padding-top: 38px;
+                color: #FFF;
+                text-align: center;
+                font-family: 'Poppins-SemiBold';
+                font-size: 56px;
+                line-height: normal;
+                text-transform: capitalize;
+                @media screen and (max-width: 768px) {
+                    font-size: 32px;
+                }
+            }
+            .error_description{
+                padding-top: 20px;
+                color:#FFF;
+                text-align: center;
+                font-family: 'Roboto';
+                font-size: 24px;
+                line-height: 36px; 
+                opacity: 0.8;  
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                }
+            }
+            .button_error{
+                margin-top: 64px;
+                border-radius: 2px;
+                border: 1px solid rgba(255, 255, 255, 0.20);
+                padding: 20px 32px;
+                background-color: transparent;
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                    padding: 12px 24px;
+                }
+            }
+            .outline{
+                color: #FFF;
+                font-family: 'Poppins-SemiBold';
+                font-size: 24px;
+                line-height: 36px;
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

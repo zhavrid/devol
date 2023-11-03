@@ -1,0 +1,56 @@
+.group{
+    &-quantitative{
+        background: linear-gradient(180deg, #1B1B1E 0%, #16161A 100%);
+        .content{
+            text-align: center;
+            &_title{
+                color: #FFF;
+                text-align: center;
+                font-family: 'Poppins-SemiBold';
+                font-size: 56px;
+            }
+            &_description{
+                color: #FFF;
+                text-align: center;
+                font-family: 'Roboto';
+                font-size: 24px;
+                line-height: 36px; 
+                opacity: 0.8;
+                padding: 32px 0;
+            }
+            &_buttons{
+                border-radius: 2px;
+                background:#6F05DB;
+                padding: 20px 32px;
+                color: #FFF;
+                font-family: 'Poppins-SemiBold';
+                font-size: 24px;
+                line-height: 36px; 
+                border: none;
+                &:hover{
+                    background-color: #4335E6;
+                }
+            }
+        }
+        .blocks{
+            padding-top: 64px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .block{
+                text-align: center;
+                padding: 32px 24px 24px;
+                border-radius: 2px;
+                background: rgba(255, 255, 255, 0.03);
+                &_title{
+                    max-width: 348px;
+                    padding-top: 24px;
+                    color: #FFF;
+                    font-family: 'Poppins-SemiBold';
+                    text-align: center;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

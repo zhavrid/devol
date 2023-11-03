@@ -1,0 +1,59 @@
+{
+    "key": "group_65280786c6e8a",
+    "title": "Body background select",
+    "fields": [
+        {
+            "key": "field_6528079a83036",
+            "label": "body background",
+            "name": "body_background",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Default",
+                "home": "Home",
+                "trade": "Trade",
+                "analytics": "Analytics",
+                "platform": "Platform",
+                "strategies": "Strategies",
+                "partner": "Partner",
+                "institutions": "Institutions \/ Protocol",
+                "privacy": "Privacy",
+                "resources": "Resources",
+                "media": "Media"
+            },
+            "default_value": "default",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1698305837
+}

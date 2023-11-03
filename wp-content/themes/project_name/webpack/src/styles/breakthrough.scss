@@ -1,0 +1,99 @@
+.breakthrough{
+    padding-top: 112px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url('http://bootstrap-wp-theme-devol/wp-content/uploads/2023/10/3d-render-flowing-particles-creating-anstract-landscape-modern-technology.png'), #0f0f12 0px -178px / 100% 139.381% no-repeat;
+    background-size: cover;
+    @media screen and (max-width: 1250px) {
+        background-position: top;
+    }
+    @media screen and (max-width: 760px) {
+        padding-top: 60px;
+    }
+    &-content{
+        display: flex;
+        padding: 200px 0;
+        gap: 208px;
+        @media screen and (max-width: 1250px) {
+            display: block;
+            padding: 153px 0 256px;
+        }
+        @media screen and (max-width: 1024px) {
+            padding: 60px 0;
+        }
+        @media screen and (max-width: 760px) {
+            padding: 0 0 60px;
+        }
+        &_left{
+            &_title{
+                max-width: 690px;
+                color:#FFF;
+                font-size: 56px;
+                line-height: normal;
+                font-family: 'Poppins-SemiBold';
+                @media screen and (max-width: 1250px) {
+                    max-width: 1228px;
+                }
+                @media screen and (max-width: 1024px) {
+                    font-size: 38px;
+                }
+                @media screen and (max-width: 768px) {
+                    font-size: 32px;
+                    line-height: 44px;
+                    
+                }
+            }
+        }
+        &_right{
+            .description{
+                color:#FFF;
+                font-family: 'Roboto';
+                font-size: 24px;
+                line-height: 36px;
+                opacity: 0.8;
+                max-width: 416px;
+                @media screen and (max-width: 1228px) {
+                    max-width: 812px;
+                    padding-top: 64px;
+                }
+                @media screen and (max-width: 1024px) {
+                    font-size: 18px;
+                }
+                @media screen and (max-width: 768px) {
+                    padding-top: 60px;
+                    line-height: 28px;
+                }
+            }
+            .list{
+                margin: 32px 0px 0px 20px;
+                @media screen and (max-width: 1024px) {
+                    margin: 24px 0px 32px 20px;
+                }
+                li{
+                    color:#FFF;
+                    font-family: 'Poppins-SemiBold';
+                    font-size: 22px;
+                    line-height: normal;
+                    padding-bottom: 16px;
+                    &:last-child{
+                        padding-bottom: 0px;
+                    }
+                    @media screen and (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .bottom_description{
+                margin-top: 69px;
+                font-family: 'Poppins-SemiBold';
+                color: #35F9A9;
+                font-size: 22px;
+                line-height: normal;
+                @media screen and (max-width: 1024px) {
+                    font-size: 16px;
+                    margin-top: 32px;
+                }
+            }
+        }
+    }
+}

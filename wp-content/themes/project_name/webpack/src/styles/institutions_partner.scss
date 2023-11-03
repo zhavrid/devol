@@ -1,0 +1,199 @@
+.analytics_title{
+    padding: 46px 0 82px;
+    @media screen and (max-width: 768px) {
+        padding: 20px 0 78px !important;
+    }
+    .link_page{
+        display: flex;
+        .trade{
+            color: rgba(255, 255, 255, 0.50);
+            font-family: 'Poppins-SemiBold';
+            font-size: 18px;
+            line-height: 28px; 
+            transition: .5s;
+            cursor: pointer;
+            &:hover{
+                color: #35F9A9;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+            }
+        }
+        .line{
+            width: 22px;
+            height: 22px;
+            @media screen and (max-width: 768px) {
+                width: 14px;
+                height: 14px;
+            }
+        }
+        .analytics_page{
+            color: #fff;
+            font-family: 'Poppins-SemiBold';
+            font-size: 18px;
+            line-height: 28px;
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+            } 
+        }
+    }
+    .title{
+        padding-top: 46px;
+        color: #35F9A9;
+        font-family: 'Poppins-SemiBold';
+        font-size: 70px;
+        line-height: 88px; 
+        text-transform: capitalize;
+        &::before {
+            padding-right: 32px;
+            content: "|";
+            color: #35F9A9;
+            width: 88px;
+            height: 6px;
+        }
+        @media screen and (max-width: 768px) {
+            padding-top: 12px;
+            font-size: 38px;
+        }
+    }
+    .content{
+        padding-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 1110px) {
+            display: block;
+        }
+        @media screen and (max-width: 768px) {
+            padding-top: 60px;
+        }
+        .contant_left{
+            max-width: 604px;
+            @media screen and (max-width: 1110px) {
+                max-width: 100%;
+            }
+            .left{
+                color:#FFF;
+                font-family: 'Poppins-light';
+                font-size: 56px;
+                line-height: normal;
+                @media screen and (max-width: 768px) {
+                    font-size: 32px;
+                    line-height: 44px !important;
+                }
+            }
+        }
+        .contant_right{
+            max-width: 416px;
+            @media screen and (max-width: 1110px) {
+                padding-top: 40px;
+                max-width: 100%;
+            }
+            .right{
+                color: #FFF;
+                font-family: 'Roboto';
+                font-size: 24px;
+                line-height: 36px;
+                opacity: 0.8;
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                }
+            }
+            .button{
+                margin-top: 32px;
+                border-radius: 2px;
+                background: #6F05DB;
+                color: #FFF;
+                font-family: 'Poppins-SemiBold';
+                font-size: 24px;
+                line-height: 36px;
+                padding: 20px 32px;
+                border: none;
+                @media screen and (max-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.title{
+    color: #FFF;
+    font-family: 'Poppins-SemiBold';
+    font-size: 56px;
+    line-height: normal;
+    @media screen and (max-width: 768px) {
+        font-size: 32px;
+        line-height: 44px !important;
+    }
+}
+
+.blocks_qu{
+    padding-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 124px;
+    gap: 84px;
+    @media screen and (max-width: 768px) {
+        display: block;
+        padding-bottom: 60px;
+    }
+    .block{
+        display: flex;
+        width: 46%;
+        @media screen and (max-width: 1102px) {
+            width: 45%;
+        }
+        @media screen and (max-width: 892px) {
+            width: 44%;
+        }
+        @media screen and (max-width: 768px) {
+            display: block;
+            padding: 60px 0 0;
+            width: 100%;
+            &:first-child{
+                padding-top: 0;
+            }
+        }
+        .icon{
+            width: 124px;
+            height: 124px;
+            margin-right: 32px;
+            @media screen and (max-width: 1024px) {
+                width: 92px;
+                height: 92px;
+            }
+        }
+        &_right{
+            &_title{
+                max-width: 416px;
+                color: white;
+                font-family: 'Poppins-SemiBold';
+                font-size: 30px;
+                line-height: normal;
+                text-transform: capitalize;
+                @media screen and (max-width: 1024px) {
+                    font-size: 22px;
+                }
+                @media screen and (max-width: 768px) {
+                    padding-top: 20px;
+                }
+            }
+            &_description{
+                max-width: 416px;
+                padding-top: 16px;
+                color: white;
+                font-family: 'Roboto';
+                font-size: 18px;
+                line-height: 150%;
+                opacity: 0.8;
+                @media screen and (max-width: 1024px) {
+                    font-size: 16px;
+                }
+                @media screen and (max-width: 768px) {
+                    max-width: 100%;
+                    line-height: 26px !important; 
+                }
+            }
+        }
+    }
+}

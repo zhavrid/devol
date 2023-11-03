@@ -1,0 +1,292 @@
+.blocks_partner{
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 0 124px;
+    @media screen and (max-width: 1224px) {
+        flex-flow: wrap;
+        gap: 20px;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 60px 0 0;
+    }
+    .block{
+        text-align: center;
+        max-width: 292px;
+        padding: 32px 24px;
+        border-radius: 2px;
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(100px);
+        @media screen and (max-width: 1224px) {
+            max-width: 48.9%;
+            width: 48.9%;
+        }
+        @media screen and (max-width: 960px) {
+            max-width: 48.6%;
+            width: 48.6%;
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 100% !important;
+            width: 100%;
+            padding: 24px 20px;
+        }
+        .icon{
+            width: 64px;
+            height: 64px;
+        }
+        .title{
+            padding-top: 24px;
+            color: white;
+            font-family: 'Poppins-SemiBold';
+            font-size: 22px;
+            line-height: normal;
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.institutions_title{
+    mix-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background: url('http://bootstrap-wp-theme-devol/wp-content/uploads/2023/10/3d-render-flowing-particles-creating-anstract-landscape-modern-technology-1.svg'), 0 -178px/100% 139.381% no-repeat;
+    background-size: cover;
+    padding: 200px 0 ;
+    text-align: center;
+    margin-bottom: 188px;
+    @media screen and (max-width: 768px) {
+        text-align: start;
+        margin-bottom: 0;
+        padding-bottom: 60px;
+    }
+    @media screen and (max-width: 425px) {
+        margin-top: -180px;
+        mix-blend-mode: screen;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background: url('http://bootstrap-wp-theme-devol/wp-content/uploads/2023/10/3d-render-flowing-particles-creating-anstract-landscape-modern-technology-3.svg'), 0 -178px/100% 139.381% no-repeat;
+        background-size: cover;
+    }
+    .content{
+        @media screen and (max-width: 425px) {
+            padding-top: 200px;
+        }
+        .title{
+            color: #fff;
+            font-family: 'Poppins-SemiBold';
+            font-size: 56px;
+            line-height: normal; 
+            text-transform: capitalize;
+            @media screen and (max-width: 768px) {
+                font-size: 32px;
+                line-height: 44px !important;
+            }
+        }
+        .description{
+            padding-top: 32px;
+            max-width: 812px;
+            color:#FFF;
+            margin: 0 auto;
+            font-family: 'Roboto';
+            font-size: 24px;
+            line-height: 36px;
+            opacity: 0.8;
+            text-align: center;
+            @media screen and (max-width: 768px) {
+                text-align: start;
+                font-size: 18px;
+                line-height: 28px !important;
+            }
+        }
+        .button{
+            margin-top: 32px;
+            border: none;
+            border-radius: 2px;
+            background: #6F05DB;
+            padding: 20px 32px;
+            color: #FFF;
+            font-family: 'Poppins-SemiBold';
+            font-size: 24px;
+            line-height: 36px;
+            max-width: 209px;
+            transition: .5s;
+            &:hover{
+                background-color: #4335E6;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+                padding: 12px 24px;
+                max-width: 100%;
+                line-height: 28px !important;
+            }
+        }
+    }
+}
+
+.protocol_title{
+    mix-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background: url('http://bootstrap-wp-theme-devol/wp-content/uploads/2023/10/3d-render-flowing-particles-creating-anstract-landscape-modern-technology-2.svg'), 0 -178px/100% 139.381% no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 1px;
+    @media screen and (max-width: 768px) {
+        text-align: start;
+    }
+    .content{
+        padding-bottom: 124px;
+        margin-top: -84px;
+        @media screen and (max-width: 768px) {
+            margin-top: 0;
+            padding: 60px 0 71px;
+        }
+        .title{
+            color: #fff;
+            font-family: 'Poppins-SemiBold';
+            font-size: 56px;
+            line-height: normal; 
+            text-transform: capitalize;
+            @media screen and (max-width: 768px) {
+                font-size: 32px;
+                line-height: 44px !important;
+            }
+        }
+        .description{
+            padding-top: 32px;
+            max-width: 812px;
+            color:#FFF;
+            margin: 0 auto;
+            font-family: 'Roboto';
+            font-size: 24px;
+            line-height: 36px;
+            opacity: 0.8;
+            text-align: center;
+            @media screen and (max-width: 768px) {
+                text-align: start;
+                font-size: 18px;
+                line-height: 28px !important;
+
+            }
+        }
+        .button{
+            margin-top: 32px;
+            border: none;
+            border-radius: 2px;
+            background: #6F05DB;
+            padding: 20px 32px;
+            color: #FFF;
+            font-family: 'Poppins-SemiBold';
+            font-size: 24px;
+            line-height: 36px;
+            max-width: 209px;
+            transition: .5s;
+            &:hover{
+                background-color: #4335E6;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 18px;
+                padding: 12px 24px;
+                max-width: 100%;
+                line-height: 28px !important;
+
+            }
+        }
+        .img{
+            padding-top: 64px;
+            max-width: 864.571px;
+            max-height: 712px;
+            margin: 0 auto;
+            .i{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.refer{
+    background-color: #16161A;
+    padding: 124px 0 144px;
+    @media screen and (max-width: 768px) {
+        padding: 49px 0 60px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 1024px) {
+            display: block;
+        }
+        .contant_left{
+            max-width: 604px;
+            @media screen and (max-width: 1024px) {
+                max-width: 100%;
+            }
+            .title{
+                color: #FFF;
+                font-family: 'Poppins-SemiBold';
+                font-size: 56px;
+                line-height: 88px; 
+                @media screen and (max-width: 768px) {
+                    font-size: 32px;
+                    line-height: 44px !important;
+
+                }
+            }
+            .description{
+                padding-top: 32px;
+                color: #35F9A9;
+                font-family: 'Poppins-SemiBold';
+                font-size: 30px;
+                line-height: normal;
+                @media screen and (max-width: 768px) {
+                    font-size: 22px;
+                    padding-top: 24px;
+                }
+            }
+            .button{
+                margin-top: 32px;
+                border: none;
+                border-radius: 2px;
+                background: #6F05DB;
+                padding: 20px 32px;
+                color: #FFF;
+                font-family: 'Poppins-SemiBold';
+                font-size: 24px;
+                line-height: 36px;
+                max-width: 209px;
+                transition: .5s;
+                &:hover{
+                    background-color: #4335E6;
+                }
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                    padding: 12px 24px;
+                    max-width: 100%;
+                    line-height: 28px !important;
+
+                }
+            }
+        }
+        .contant_right{
+            max-width: 416px;
+            color: #FFF;
+            font-family: 'Roboto';
+            font-size: 24px;
+            line-height: 36px;
+            opacity: 0.8;
+            @media screen and (max-width: 1024px) {
+                padding-top: 32px;
+                font-size: 18px;
+                max-width: 100%;
+                line-height: 28px !important; 
+            }
+            ul{
+                padding-left: 32px;
+                @media screen and (max-width: 1024px) {
+                    padding-left: 24px;
+                }
+            }
+        }
+    }
+}

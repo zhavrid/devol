@@ -1,0 +1,167 @@
+.group-content {
+  padding: 124px 0;
+  background: linear-gradient(180deg, #1B1B1E 0%, #16161A 100%);
+}
+@media screen and (max-width: 1024px) {
+  .group-content {
+    padding: 60px 0;
+  }
+}
+.group-content .content_title {
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .group-content .content_title {
+    text-align: inherit;
+  }
+}
+.group-content .content_title .title {
+  opacity: 0.8;
+  max-width: 812px;
+  margin: 0 auto;
+  color: #FFF;
+  font-family: "Poppins-SemiBold";
+  font-size: 56px;
+}
+@media screen and (max-width: 1024px) {
+  .group-content .content_title .title {
+    font-size: 38px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .group-content .content_title .title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+.group-content .content_title .description {
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 36px;
+  opacity: 0.8;
+  padding: 32px 0;
+  max-width: 812px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .group-content .content_title .description {
+    margin: 0;
+    font-size: 18px;
+    max-width: 100%;
+    padding: 24px 0 32px;
+    line-height: 28px;
+  }
+}
+.group-content .content_title .buttons {
+  border-radius: 2px;
+  background: #6F05DB;
+  padding: 20px 32px;
+  color: #FFF;
+  font-family: "Poppins-SemiBold";
+  font-size: 24px;
+  line-height: 36px;
+  border: none;
+}
+@media screen and (max-width: 1024px) {
+  .group-content .content_title .buttons {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .group-content .content_title .buttons {
+    width: 100%;
+  }
+}
+.group-content .content_blocks {
+  margin: -10px;
+  padding-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .group-content .content_blocks {
+    padding-top: 60px;
+  }
+}
+.group-content .content_blocks .block {
+  padding: 10px;
+  width: 33.33%;
+  height: auto;
+}
+@media screen and (max-width: 1228px) {
+  .group-content .content_blocks .block {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .group-content .content_blocks .block {
+    width: 100%;
+  }
+}
+.group-content .content_blocks .block-content {
+  height: 100%;
+  text-align: center;
+  padding: 32px 24px 24px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.03);
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
+}
+@media screen and (max-width: 1024px) {
+  .group-content .content_blocks .block-content {
+    padding: 32px 20px 24px;
+  }
+}
+.group-content .content_blocks .block-content .title {
+  max-width: 348px;
+  padding-top: 24px;
+  color: #FFF;
+  font-family: "Poppins-SemiBold";
+  text-align: center;
+  font-size: 22px;
+  min-height: 108px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .group-content .content_blocks .block-content .title {
+    font-size: 18px;
+  }
+}
+
+#analytics {
+  background-image: url("http://bootstrap-wp-theme-devol/wp-content/uploads/2023/10/Art.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: contain;
+}
+@media screen and (max-width: 768px) {
+  #analytics {
+    background-image: url("http://bootstrap-wp-theme-devol/wp-content/uploads/2023/10/Art-1.svg");
+  }
+}
+
+#institutions {
+  background: #1B1B1E;
+}
+
+#protocol {
+  background-image: url("http://bootstrap-wp-theme-devol/wp-content/uploads/2023/10/3d-render-flowing-particles-creating-anstract-landscape-modern-technology.svg");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  padding: 200px 0;
+}
+@media screen and (max-width: 1250px) {
+  #protocol {
+    padding: 112px 0 195px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #protocol {
+    padding: 60px 0;
+  }
+}/*# sourceMappingURL=group.css.map */
