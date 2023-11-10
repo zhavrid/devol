@@ -43,6 +43,7 @@ final class Init {
 		General\Media_kit_colors::class, 
 		General\Media_kit_fonts::class, 
 		General\Media_kit_illustrations::class, 
+		General\Slide_hero::class, 
 	);
 	
 	public function __construct()

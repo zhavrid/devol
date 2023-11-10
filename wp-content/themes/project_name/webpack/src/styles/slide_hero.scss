@@ -1,0 +1,168 @@
+.container_line{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1228px;
+    @media screen and (max-width: 1190px) {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+.hero_line {
+    position: relative;
+    &::before {
+        content: " ";
+        background: #1C1C1F;
+        background: linear-gradient(90deg, #1B1B1E 87.73%, rgba(27, 27, 30, 0.00) 98.48%);        width: 45%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 650px;
+        z-index: 1;
+        @media screen and (max-width: 1190px) {
+            display: none;
+        }
+    }
+
+    &::after {
+        content: " ";
+        background: linear-gradient(270deg, #1B1B1E 0%, rgba(27, 27, 30, 0.00) 50%);
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        @media screen and (max-width: 1190px) {
+            display: none;
+        }
+    }
+
+
+    .slider_line{
+        display: flex;
+        padding: 32px 0;
+        align-items: center;
+        @media screen and (max-width: 1190px) {
+            display: block;
+            text-align: center;
+            padding: 32px 0 50px;
+        }
+        &_content{
+            display: flex;
+            align-items: center;
+            z-index: 1;
+            @media screen and (max-width: 1190px) {
+                display: block;
+                width: 235px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            &_text{
+                padding-left: 28px;
+                @media screen and (max-width: 1190px) {
+                    padding-left: 0px;
+                }
+                .counter{
+                    display: flex;
+                    gap: 10px;
+                    position: relative;
+                    width: 228px;
+                    @media screen and (max-width: 1190px) {
+                        padding-top: 28px;
+                    }
+                    .text, .count{
+                        color: #FFF;
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-family: 'Poppins-SemiBold';
+                        font-size: 38px;
+                        line-height: normal;
+                    }
+                    .text{
+                        position: absolute;
+                        right: 0;
+                    }
+                }
+       
+                .description{
+                    color: #FFF;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: 'Roboto';
+                    font-size: 18px;
+                    line-height: 28px; 
+                    opacity: 0.8;
+                    width: 270px;
+                }
+            }
+        }
+        .line{
+            display: flex;
+            gap: 40px;
+            @media screen and (max-width: 1190px) {
+                padding-top: 50px;
+            }
+            .swiper-slide{
+                .currency{
+                    padding-top: 8px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+.swiper{
+    margin-right: -25vw !important;
+    width: 100%;
+    @media screen and (max-width: 2454px) {
+        margin-right: -24vw !important;
+    }
+    @media screen and (max-width: 2365px) {
+        margin-right: -23vw !important;
+    }
+    @media screen and (max-width: 2275px) {
+        margin-right: -21vw !important;
+    }
+    @media screen and (max-width: 2117px) {
+        margin-right: -19vw !important;
+    }
+    @media screen and (max-width: 1980px) {
+        margin-right: -17vw !important;
+    }
+    @media screen and (max-width: 1862px) {
+        margin-right: -15vw !important;
+    }
+    @media screen and (max-width: 1750px) {
+        margin-right: -13vw !important;
+    }
+    @media screen and (max-width: 1660px) {
+        margin-right: -11vw !important;
+    }
+    @media screen and (max-width: 1577px) {
+        margin-right: -9vw !important;
+    }
+    @media screen and (max-width: 1587px) {
+        margin-right: -7vw !important;
+    }
+    @media screen and (max-width: 1427px) {
+        margin-right: -5vw !important;
+    }
+    @media screen and (max-width: 1357px) {
+        margin-right: -3vw !important;
+    }
+    @media screen and (max-width: 1304px) {
+        margin-right: -1vw !important;
+    }
+    @media screen and (max-width: 1253px) {
+        margin-right: 1vw !important;
+    }
+}
+
+
+
+.swiper-pagination {
+    display: none;
+}

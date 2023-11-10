@@ -14,7 +14,8 @@ use App\Base\Bootstrap;
             <div class="footer_section-block_left">
                 <h2 class="title"><?php echo $footer['footer_section_title']?></h2>
                 <p class="description"><?php echo $footer['footer_section_description']?></p>
-                <?php echo do_shortcode('[contact-form-7 id="14c1fd0" title="Контактная форма 1" class="custom-form"]'); ?>                <div class="thnx" id="thnx">
+                <?php echo do_shortcode('[contact-form-7 id="14c1fd0" title="Контактная форма 1" class="custom-form"]'); ?>                
+                <div class="thnx" id="thnx">
                     <button class="thnx-button">
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
                             <path d="M4.6665 14L6.99984 11.6667L11.6673 16.3334L20.9998 7L23.3332 9.33333L11.6673 21L4.6665 14Z" fill="#35F9A9"/>

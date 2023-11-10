@@ -15,7 +15,7 @@ function is_dark_color($color) {
         <?php endif ?>
     </div>
     <div class="media_kit_colors-line">
-    <?php if (get_field('line')):
+        <?php if (get_field('line')):
         foreach (get_field('line') as $row):
             $titleq = $row['title'];
             $block_color = $row['block_color'];
@@ -50,3 +50,4 @@ function is_dark_color($color) {
         endif; ?>
     </div>
 </div>
+
